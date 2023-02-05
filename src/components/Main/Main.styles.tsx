@@ -1,5 +1,49 @@
 import styled from "styled-components";
 
+// Input Area
+
+export const ContainerSearch = styled.div`
+   /* height: 100px; */
+`
+
+
+export const Span = styled.span`
+   background-color: var(--bg-nitendo);
+   border: 1px solid var(--bg-border-nitendo);
+   `
+
+export const Screen = styled.span`
+   padding: 4px;
+   /* width: 100%; */
+   
+   input {
+      background-color: var(--sc-nitendo);
+      border: 1px solid var(--sc-border-nitendo);
+      color: var(--bg-nitendo);
+      outline: none;
+      height: 40px;
+      font-size: 24px;
+      font-weight: bold;
+      padding: 4px 8px;
+      transition: .2;
+      text-align: center;
+      width: auto;
+
+      ::placeholder {
+         color: var(--bg-nitendo);
+      }
+   }
+`
+
+export const InputSearchClose = styled.span`
+   background-color: var(--sc-nitendo);
+      border: 1px solid var(--sc-border-nitendo);
+      color: var(--bg-nitendo);
+      height: 40px;
+      padding: 4px 8px;
+`
+
+// Container Cards
 export const Main = styled.main`
    border: 2px solid var(--blue-nitendo);
    border-radius: 8px;
@@ -48,6 +92,8 @@ export const Card = styled.div`
    border: 1px solid var(--blue-nitendo);
    border-radius: 4px;
    padding: 8px;
+   font-family: 'Bauhaus';
+   /* font-size: 10px; */
    transition: .2 ease;
 
    &:nth-child(even) {
@@ -70,11 +116,13 @@ export const Name = styled.p`
    font-size: 18px;
    font-weight: bold;
    text-align: center;
+   letter-spacing: 1px;
 `
 
 export const Img = styled.img `
    width: 150px;
    height: 180px;
 `
-export const desc = styled.div``
+export const Desc = styled.div`
+`
 

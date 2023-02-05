@@ -4,7 +4,7 @@ export type AmiiboType = {
    character: string
    image: string
    name: string
-   realease: {
+   release: {
       au: string
       eu: string
       jp: string
