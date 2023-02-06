@@ -52,9 +52,10 @@ export const Main = () => {
    }
 
    const handleSearch = (e: ChangeEvent<HTMLInputElement>) => {
-      let valueSearch = e.target.value
+      let valueSearch = (e.target.value).toLocaleLowerCase()
+      // console.log(`ToLower: ${valueSearch}`)
       let search = valueSearch.replace(valueSearch[0], valueSearch[0].toLocaleUpperCase()) // 1 letra maiuscula
-      console.log(search)
+      // console.log(search)
 
       if(valueSearch === '') {
          setFindAmiibos(amiibos)
@@ -69,7 +70,6 @@ export const Main = () => {
       <>
          <Style.ContainerSearch className='flex mt-2'>
             <ControllLeft w='24' h='48' />
-
             <Style.Span className='flex'>
                <Style.Screen onMouseEnter={handleInputSearchEnter} onMouseLeave={handleInputSearchLeave}>
                   {

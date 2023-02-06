@@ -14,6 +14,27 @@ No processo de desenolvimento utilizei o [***Axios***](https://axios-http.com/) 
 
 ----
 
+## **Instalação**
+Clone o Projeto:
+```js
+   gh repo clone DouglasSuzukiDS/AmiiboApi
+```
+
+Depois do projeto clonado e acessado o diretório do projeto, instale as dependências: 
+
+```js
+   npm i | yarn
+```
+
+---
+
+Para rodar o projeto:
+```js
+   npm start | yarn start
+```
+
+----
+
 ## **Cores utilizadas no Projeto**
 Essas cores foram retiradas de referências de imagens/artes digitais do Nitendo Switch 
 
@@ -24,7 +45,7 @@ Essas cores foram retiradas de referências de imagens/artes digitais do Nitendo
 ![Red - Nitendo](https://i.imgur.com/N86ERLR.png) | red-nitendo | ***#EF6388*** | ***(239, 99, 136)***
 ![Red - Border - Nitendo](https://i.imgur.com/2xccqsC.png) | red-border-nitendo | ***C74343*** | ***(199, 67, 67)***
 ![BG - Nitendo](https://i.imgur.com/g1JXRRc.png) | bg-nitendo | ***#B0C1D4*** | ***(176, 193, 212)***
-![BG - Border - Nitendo](https://i.imgur.com/Zc7fJVh.png) | bg-border-nitendo | ***#66798F*** | ***(102, 121, 143, )***
+![BG - Border - Nitendo](https://i.imgur.com/Zc7fJVh.png) | bg-border-nitendo | ***#66798F*** | ***(102, 121, 143)***
 ![SC - Nitendo](https://i.imgur.com/lDdMOe8.png) | sc-nitendo | ***#E1EBF3*** | ***(255, 235, 243)***
 ![SC - Border - Nitendo](https://i.imgur.com/SqUQsaI.png) | sc-border-nitendo | ***#788B9C*** | ***(120, 139, 156)***
 ---

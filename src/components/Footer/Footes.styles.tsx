@@ -55,6 +55,6 @@ export const Contact = styled.span`
    background-color: var(--sc-nitendo);
    border: 1px solid var(--sc-border-nitendo);
    color: var(--bg-nitendo);
-   height: 40px;
+   height: 38px;
    padding: 4px;
 `

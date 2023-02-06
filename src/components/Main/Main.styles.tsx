@@ -21,13 +21,13 @@ export const Screen = styled.span`
       border: 1px solid var(--sc-border-nitendo);
       color: var(--bg-nitendo);
       outline: none;
-      height: 40px;
+      height: 38px;
       font-size: 24px;
       font-weight: bold;
       padding: 4px 8px;
       transition: .2;
       text-align: center;
-      width: auto;
+      /* width: auto; */
 
       ::placeholder {
          color: var(--bg-nitendo);
@@ -39,7 +39,7 @@ export const InputSearchClose = styled.span`
    background-color: var(--sc-nitendo);
       border: 1px solid var(--sc-border-nitendo);
       color: var(--bg-nitendo);
-      height: 40px;
+      height: 38px;
       padding: 4px 8px;
 `
 
